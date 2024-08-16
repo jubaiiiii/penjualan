@@ -31,11 +31,12 @@
                 </div>
                 <div class="mb-3">
                     <label for="role">ROLE</label>
-                    <select class="form-select" id="role" name="role" required>
+                    <select class="form-select" id="role" name="role" required> 
                 </div>
                 <?php if($user->role == 'PEMILIK'){?>
-                    <option value="PEMILIK" selected>PEMILIK</option>
-                    <option value="ADMIN">ADMIN</option>
+                    <option value="owner" selected>OWNER</option>
+                    <option value="wakil manajer">WAKIL MANAJER</option>
+                    <option value="staff">STAFF</option>
                     <option value="KASIR">KASIR</option>
                 <?php }else if($user->role == 'ADMIN') {?>
                     <option value="PEMILIK">PEMILIK</option>

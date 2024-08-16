@@ -44,8 +44,9 @@
                         <label for="role">Role</label>
                         <select class="form-select" id="role" name="role" require>
                             <option selected>Choose..</option>
-                            <option value="PEMILIK">PEMILIK</option>
-                            <option value="ADMIN">ADMIN</option>
+                            <option value="owner">OWNER</option>
+                            <option value="wakil manajer">WAKIL MANAJER</option>
+                            <option value="staff">STAFF</option>
                             <option value="KASIR">KASIR</option>
                         </select>
                     </div>
